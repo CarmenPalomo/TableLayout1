@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeTextType="uniform"
+        android:background="#aa66cc"
+        android:minHeight="?attr/actionBarSize"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:title="EjercicioAndroid2"
+        app:titleTextColor="@color/white" />
+
+    <TableRow
+        android:layout_width="391dp"
+        android:layout_height="274dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/circuloazul" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:text="Nombre"
+            android:textColor="#AAAAAA"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:textOff="Edit Profile"
+            android:textOn="Edit Profile" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Followers"
+                android:textColor="#AAAAAA"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Following"
+                android:textColor="#AAAAAA"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estrellita"
+                android:textColor="#AAAAAA"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </TableRow>
+
+
+</TableLayout>
